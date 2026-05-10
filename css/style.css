@@ -1,0 +1,56 @@
+/* section 1st */
+
+.head{
+    width: 1220px;
+ display: flex;
+justify-content: space-between;
+align-items: center;
+margin: 0 auto;
+}
+.navi{
+  display: flex;
+ 
+}
+.navi li{
+    margin-left: 45px;
+    
+}
+.navi a{ 
+    color: #37393F;
+}
+.btn{
+    background-color: #6B77E5;
+    color: white;
+    padding: 15px 3px;
+    font-family: "Cabin", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+    font-size: 18px;   
+}
+/* section 2nd */
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 157.5px;
+}
+.paragraph1{
+   font-size: 18px; 
+   color: #37393F;
+   font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.paratwo{
+    font-size: 40px;
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 16px;
+}
