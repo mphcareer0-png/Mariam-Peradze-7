@@ -33,11 +33,6 @@ margin: 0 auto;
 /* section 2nd */
 .main{
     width: 283px;
-   
-    /* display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center; */
     margin: 0 auto;
     text-align: center;
     margin-top: 157.5px;
@@ -159,6 +154,7 @@ margin: 0 auto;
 .child-container{
     width: 511px;
     height: 270.5px;
+   
 }
 .video{
     font-size: 18px;
@@ -194,7 +190,91 @@ margin: 0 auto;
     border-radius: 100px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;       
+}
+/* section title */
+.title-container{
+    width: 348px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 157.5px;
+    margin-top: 130px;
+    margin-bottom: 31px;
+}
+.title-paragraph{
+   font-size: 18px; 
+   color: #37393F;
+   font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+}
+.title-paratwo{
+    font-size: 40px;
+    color: #37393F;
+    font-family: "Poppins", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  margin-top: 16px;
+  margin-bottom: 41px;
+}
+/* section title */
 
-        
+/* section 4th */
+
+.last-container{
+    width: 1220px;
+    height: 532px;
+    display: flex;
+   justify-content: space-between;
+   margin-top: 257px;
+   margin-bottom: 131px;
+}
+.last-box{
+    width: 386px;
+    height: 383px;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.last-section-element{
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+}
+.last-main-text{
+    font-size: 25px;
+    font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.last-center-text{
+    font-size: 18px;
+    color: #7D7D7D;
+    font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  margin-top: 16px;
+  margin-bottom: 37px;
+}
+/* position sticky */
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+.navi{
+    display: flex;
+
+}
+.header-element{
+    padding: 53px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 200;
 }
